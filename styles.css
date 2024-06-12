@@ -1,0 +1,594 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;  /* Fondo blanco */
+    color: #333;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background: #fff;  /* Fondo blanco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2; /* Asegura que el header esté sobre otros elementos */
+}
+
+header .logo {
+    width: 220px;
+    height: auto;
+}
+
+nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-list li {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #333;  /* Texto oscuro */
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.nav-list li a:hover {
+    background: #ff6600;  /* Fondo naranja al pasar el mouse */
+    color: #fff;  /* Texto blanco al pasar el mouse */
+    border-radius: 5px;
+}
+
+.services-menu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 10px 0;
+    margin: 0;
+    z-index: 3; /* Asegura que el submenu esté sobre otros elementos */
+}
+
+.services-menu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px 20px;
+    display: block;
+    color: #333;
+}
+
+.submenu li a:hover {
+    background: #ff6600;
+    color: #fff;
+}
+
+.contact-info {
+    margin-left: auto;
+    font-size: 20px; /* Ajusta este valor según el tamaño de texto deseado */
+}
+
+.contact-link {
+    color: #ff6600;  /* Color naranja para el enlace de contacto */
+    font-weight: bold;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    background-color: #ff6600;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    background: #fff;  /* Fondo blanco */
+}
+
+h2 {
+    color: white;  /* Color oscuro para los encabezados */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    height: 400px; /* Altura fija para la imagen */
+    overflow: hidden; /* Ocultar cualquier contenido desbordado */
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubrir el contenedor sin distorsionar */
+    opacity: 0.8;
+}
+
+.hero-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro transparente que cubre toda la imagen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Sombra para mejorar la legibilidad */
+    text-align: center;
+    padding: 20px; /* Espacio alrededor del texto */
+}
+
+.hero-text h2 {
+    font-size: 50px; /* Tamaño del encabezado */
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 25px; /* Tamaño del párrafo */
+}
+
+.section-header {
+    text-align: center;
+    background: #007bff; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    padding: 20px;
+    margin: 20px auto; /* Márgenes automáticos para centrar el bloque */
+    width: 80%; /* Ajusta el ancho del bloque */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.service-item {
+    position: relative;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: calc(33% - 20px); /* Ajuste para 3 elementos por fila */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 340px; /* Ajuste la altura del recuadro */
+}
+
+.service-item.verificacion img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.service-item.puestas img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.service-item.ups img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.service-item.armonicos img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.service-item.fallas img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.service-item.mantenciones img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.service-text {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Asegura que el fondo cubre toda la imagen */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro transparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el texto */
+}
+
+.service-text h3 {
+    margin: 0;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para mejorar la legibilidad */
+    position: relative; /* Añade posición relativa */
+    top: -80px; /* Ajusta este valor para mover solo el texto */
+}
+
+.service-link-container {
+    margin-top: auto;
+    padding-top: 10px; /* Espacio adicional entre el título y el botón */
+}
+
+.service-link {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 16px 50px; /* Reducción del tamaño del recuadro */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top: 70%; /* Ajusta este valor para bajar el enlace */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.service-link:hover {
+    background: #0056b3;
+}
+.contact-button {
+    background: #ff6600;  /* Botón de contacto naranja */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background: #cc5200;  /* Botón de contacto más oscuro al pasar el mouse */
+}
+
+footer {
+    background: #fff;  /* Fondo blanco */
+    color: #333;  /* Texto oscuro */
+    text-align: center;
+    padding: 10px;
+    position: relative;  /* Cambiar de fixed a relative */
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent:first-child {
+    display: block;
+}
+
+.about-content {
+    padding: 25px;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 20px; /* Asegura que el tamaño de fuente por defecto sea 20px */
+}
+
+.about-content h2, .about-content h3 {
+    color: #0056b3;
+    text-align: center; /* Centra el texto */
+    font-size: 20px;
+}
+
+.about-logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Reduce el tamaño del logo */
+    height: auto; /* Mantén la proporción del logo */
+}
+
+.about-content p {
+    color: #000000;
+    margin-bottom: 20px;
+    line-height: 1.5; /* Mejora la legibilidad */
+    font-size: 20px; /* Ajusta el tamaño de la letra del párrafo */
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start; /* Alinea el contenido al inicio (arriba) */
+    margin-bottom: 20px;
+}
+
+.about-section h3 {
+    color: #0056b3; /* Color azul para "Misión" y "Visión" */
+    margin: 0;
+    font-size: 20px; /* Ajusta el tamaño del título */
+    margin-right: 20px; /* Espacio entre el título y el texto */
+}
+
+.about-text {
+    color: #000000;
+    max-width: 80%;
+    font-size: 20px; /* Ajusta el tamaño de la letra del párrafo */
+    margin: 0 20px; /* Márgenes para alinear el texto */
+    
+}
+
+.about-text p {
+    line-height: 1.5; /* Mejora la legibilidad */
+    margin: 0;
+    color: #000000;
+    font-size: 20px; /* Ajusta el tamaño de la letra del párrafo */
+}
+
+.quote {
+    text-align: center;
+    font-size: 30px; /* Ajusta el tamaño de la letra */
+    color: #0056b3; /* Color azul */
+    font-weight: bold; /* Para hacer el texto más destacado */
+    margin-top: 20px; /* Espacio adicional arriba del texto */
+}
+
+/* Estilo adicional para el texto final */
+.about-content .services-text {
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+/* Codigo para ajustes pagina verificacion inicial */
+.hero-verificacion {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    height: 400px; /* Altura fija para la imagen */
+    overflow: hidden; /* Ocultar cualquier contenido desbordado */
+    background-image: url('images/metrel.png');
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: contain; /* Ajusta la imagen para que se contenga en el contenedor */
+}
+
+
+.hero-image-verificacion {
+    display: none; /* Oculta la imagen ya que se usa como fondo */
+}
+
+.hero-text-verificacion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  /* Color del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);  /* Sombra para mejorar la legibilidad */
+    text-align: center;
+    padding: 20px; /* Espacio alrededor del texto */
+}
+
+.hero-text-verificacion h2 {
+    font-size: 50px; /* Tamaño del encabezado */
+    font-weight: bold;
+}
+
+.content-section {
+    text-align: center;
+    margin-top: 20px; /* Margen superior para separar la sección del contenido de la imagen */
+}
+
+.main-title {
+    font-size: 35px; /* Tamaño del título principal */
+    color: #333; /* Color del título principal */
+    margin-bottom: 10px; /* Margen inferior para separación */
+}
+
+.sub-title {
+    font-size: 25px; /* Tamaño del subtítulo */
+    color: #555; /* Color del subtítulo */
+}
+.ensayos-mediciones {
+    background: #f5f5f5; /* Fondo gris claro */
+    padding: 40px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ensayos-header h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.ensayos-header p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ensayos-content p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.ensayos-content h3 {
+    color: #0056b3;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.ensayos-content ul {
+    text-align: left;
+    display: inline-block;
+    color: #333;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto; /* Centra la lista en el contenedor */
+    max-width: 600px; /* Limita el ancho de la lista */
+}
+
+.ensayos-content ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px; /* Espacio para el ícono de lista personalizado */
+}
+
+.ensayos-content ul li::before {
+    content: "•"; /* Ícono de lista personalizado */
+    position: absolute;
+    left: 0;
+    color: #0056b3; /* Color del ícono */
+    font-size: 20px; /* Tamaño del ícono */
+}
+
+.ensayos-content ul ul {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #333;
+    padding-left: 20px; /* Espacio para el ícono de lista personalizado */
+}
+
+.ensayos-content ul ul li::before {
+    content: "–"; /* Ícono de lista personalizado para subelementos */
+    position: absolute;
+    left: 0;
+    color: #0056b3; /* Color del ícono */
+    font-size: 18px; /* Tamaño del ícono */
+}
+
+.quote-button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px; /* Añade espacio entre la lista y el botón */
+}
+
+.quote-button:hover {
+    background: #0056b3;
+}
+
+
+/* Estilos para la sección de Instrumentación */
+.instrumentacion {
+    padding: 20px;
+    background: #fff; /* Fondo blanco */
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.instrument-title {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.instrument-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.instrument-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+.instrument-image img {
+    width: 100%;
+    height: auto;
+}
+
+.instrument-image h3 {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.instrument-image img {
+    padding: 20px; /* Añade espacio alrededor de la imagen */
+    border-radius: 5px; /* Añade bordes redondeados si es necesario */
+}
+
+.accessories {
+    display: flex;
+    flex-direction: column; /* Coloca las imágenes en una columna */
+    align-items: center; /* Centra las imágenes */
+}
+
+.accessories img {
+    width: 140px; /* Ajusta el tamaño según tu preferencia */
+    height: 140px; /* Ajusta el tamaño según tu preferencia */
+    margin: 10px 0; /* Espacio vertical entre las imágenes */
+    padding: 10px; /* Añade espacio alrededor de la imagen */
+    border-radius: 5px; /* Añade bordes redondeados si es necesario */
+}
+
+.instrument-info {
+    flex: 2;
+    min-width: 300px;
+}
+
+.instrument-info h3 {
+    font-size: 24px;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.instrument-info ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.instrument-info ul li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}

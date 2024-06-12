@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metrelex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/image.png" alt="Metrelex Logo" class="logo">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="tablink">Inicio</a></li>
+                    <li class="services-menu">
+                        <a href="#" class="tablink">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="verificacion.html" target="_blank">INFORME DE VERIFICACIÓN INICIAL</a></li>
+                            <li><a href="puestas.html" target="_blank">PUESTAS A TIERRA</a></li>
+                            <li><a href="ups.html" target="_blank">MANTENCIÓN E INSTALACIÓN DE UPS</a></li>
+                            <li><a href="armonicos.html" target="_blank">ANÁLISIS DE ARMÓNICOS</a></li>
+                            <li><a href="fallas.html" target="_blank">BÚSQUEDA DE FALLAS</a></li>
+                            <li><a href="mantenciones.html" target="_blank">MANTENCIONES ELÉCTRICAS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="tablink" onclick="openTab('about')">Quiénes Somos</a></li>
+                </ul>
+            </nav>
+            <div class="contact-info">
+                <a href="mailto:contacto@metrelex.com" target="_blank" class="contact-link">contacto@metrelex.com</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="services" class="tabcontent">
+            <div class="hero">
+                <img src="images/imagenprincipal.jpeg" alt="Servicios Eléctricos" class="hero-image">
+                <div class="hero-text">
+                    <h2>Servicios Eléctricos Certificados</h2>
+                    <p>Experiencia y excelencia en nuestros servicios.</p>
+                    <p>Instalaciones y mantenciones realizadas por profesionales certificados SEC.</p>
+                    <button class="contact-button" onclick="window.open('mailto:contacto@metrelex.com', '_blank')">Contáctanos</button>
+                </div>
+            </div>
+            <div class="section-header">
+                <h2>NUESTROS SERVICIOS</h2>
+            </div>
+            <div class="service-grid">
+                <div class="service-item verificacion">
+                    <img src="images/ivi.png" alt="Servicio 1">
+                    <div class="service-text">
+                        <h3>INFORME DE VERIFICACIÓN INICIAL</h3>
+                        <a href="verificacion.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+                <div class="service-item puestas">
+                    <img src="images/tierras.png" alt="Servicio 2">
+                    <div class="service-text">
+                        <h3>PUESTAS A TIERRA</h3>
+                        <a href="puestas.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+                <div class="service-item ups">
+                    <img src="images/UPS.png" alt="Servicio 3">
+                    <div class="service-text">
+                        <h3>MANTENCIÓN E INSTALACIÓN DE UPS</h3>
+                        <a href="ups.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+                <div class="service-item armonicos">
+                    <img src="images/armonicos.png" alt="Servicio 4">
+                    <div class="service-text">
+                        <h3>ANÁLISIS DE ARMÓNICOS</h3>
+                        <a href="armonicos.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+                <div class="service-item fallas">
+                    <img src="images/fallas.png" alt="Servicio 5">
+                    <div class="service-text">
+                        <h3>BÚSQUEDA DE FALLAS</h3>
+                        <a href="fallas.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+                <div class="service-item mantenciones">
+                    <img src="images/ttr.png" alt="Servicio 6">
+                    <div class="service-text">
+                        <h3>MANTENCIONES ELÉCTRICAS</h3>
+                        <a href="mantenciones.html" target="_blank" class="service-link">Visitar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="tabcontent" style="display:none;">
+            <div class="about-content">
+                <img src="images/image.png" alt="Metrelex Logo" class="about-logo">
+                <h2>METRELEX</h2>
+                <p>Somos una empresa que cuenta con un experto equipo profesional y con amplia experiencia en el área eléctrica. Trabajamos con instrumentación propia de última generación, con el fin de brindar una eficaz solución a nuestros clientes, en el menor tiempo posible.</p>
+                <p>Ofrecemos nuestro conocimiento especializado en el área eléctrica, con formación constante y actualización en nuevas tecnologías. Esto nos permite entregar un trabajo eficiente, para cada proyecto, según la necesidad de cada cliente. Cumplimos con los más altos estándares de calidad a la hora de realizar nuestros informes, en coordinación y cumplimiento a las normativas y leyes vigentes en el país.</p>
+                <div class="about-section">
+                    <h3>Misión</h3>
+                    <div class="about-text">
+                        <p>Ofrecer proyectos eléctricos de alta calidad y profesionalismo, con miras a nuestra principal meta, que es la completa satisfacción de quienes contratan nuestros servicios. Prestando un servicio óptimo y de excelencia, constituyéndonos como su mejor opción, una alternativa confiable económica y eficiente.</p>
+                    </div>
+                </div>
+                <div class="about-section">
+                    <h3>Visión</h3>
+                    <div class="about-text">
+                        <p>Nuestra visión a futuro es consolidarnos en los próximos años, como líderes y referentes en nuestra área, enfocados siempre en la entrega de soluciones, centradas a las necesidades de nuestros clientes. Nos gustan los desafíos, por ello, somos capaces de desarrollar ambiciosos proyectos de forma personalizada, para cumplir a cabalidad los requerimientos solicitados y acordes a las exigencias del mercado de forma ética y responsable. Abalamos el desarrollo sustentable, por lo cual queremos expandirnos en el área de eficiencia energética, generación de energía renovable y electromovilidad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-section">
+                <div class="about-text services-text">
+                    <p>Algunos de los servicios que entregamos son: informes técnicos de verificación inicial, revisión de instalaciones eléctricas, búsqueda de fallas constructivas provocadas por el deterioro natural o agentes externos, mantención eléctrica, asesoría o ejecución de obras del área eléctrica, inscripción de planos eléctricos en la SEC, entre otros servicios.</p>
+                    <p>Llevamos más de 3 años como METRELEX y en total, 13 años de experiencia, prestando servicios a diferentes empresas.</p>
+                </div>
+            </div>
+            <p class="quote">"Con METRELEX medición precisa y confiable"</p>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>Doctora Eloísa Diaz #5689, Las Condes, Santiago |  Contacto: <a href="mailto:contacto@metrelex.com" target="_blank">contacto@metrelex.com</a> | Teléfono: +569 94381041</p>
+        <p>&copy; 2024 Metrelex. Todos los derechos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
