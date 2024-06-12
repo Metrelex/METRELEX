@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PUESTAS A TIERRA</title>
+    <title>Puestas a Tierra</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,24 +13,101 @@
             <nav>
                 <ul class="nav-list">
                     <li><a href="index.html" class="tablink">Inicio</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('services')">Servicios</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('about')">Quiénes Somos</a></li>
+                    <li class="services-menu">
+                        <a href="#" class="tablink">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="verificacion.html" target="_blank">INFORME DE VERIFICACIÓN INICIAL</a></li>
+                            <li><a href="puestas.html" target="_blank">PUESTAS A TIERRA</a></li>
+                            <li><a href="ups.html" target="_blank">MANTENCIÓN E INSTALACIÓN DE UPS</a></li>
+                            <li><a href="armonicos.html" target="_blank">ANÁLISIS DE ARMÓNICOS</a></li>
+                            <li><a href="fallas.html" target="_blank">BÚSQUEDA DE FALLAS</a></li>
+                            <li><a href="mantenciones.html" target="_blank">MANTENCIONES ELÉCTRICAS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#about" class="tablink">Quiénes Somos</a></li>
                 </ul>
             </nav>
             <div class="contact-info">
-                <a href="mailto:contacto@metrelex.com" class="contact-link">contacto@metrelex.com</a>
+                <a href="mailto:contacto@metrelex.com" target="_blank" class="contact-link">contacto@metrelex.com</a>
             </div>
         </div>
     </header>
     <main>
-        <section>
-            <h2>Puestas a tierra</h2>
-            <p>Descripción detallada de los servicios de puestas a tierra ofrecidos por Metrelex.</p>
+        <section class="hero-puestas">
+            <div class="hero-text-puestas">
+                
+            </div>
+        </section>
+        <section class="content-section">
+            <h2 class="main-title">PUESTAS A TIERRA</h2>
+            <p class="sub-title">Mediciones</p>
+        </section>
+        <section class="ensayos-mediciones">
+            <div class="ensayos-header">
+                <h2>Ensayos y Mediciones</h2>
+                <p>Aplicables a diversas instalaciones</p>
+            </div>
+            <div class="ensayos-content">
+                <p>En Metrelex realizamos los ensayos y mediciones necesarios con equipos de calidad para garantizar una medición confiable y segura.</p>
+                <h3>PRUEBAS Y ENSAYOS</h3>
+                <ul>
+                    <li>Resistencia de puesta a tierra método caída de potencial</li>
+                    <li>Resistencia de puesta a tierra método 2 puntos</li>
+                    <li>Resistencia de puesta a tierra mediante pinza de inducción</li>
+                    <li>Medición de resistividad de terreno</li>
+                    <li>Simulaciónes de tensiones de paso y contacto</li>
+                    <li>Informes de diseño y medicion de puestas a tierra.</li>
+                </ul>
+            </div>
+        </section>
+        <section class="instrumentacion-puestas">
+            <h2 class="instrument-title-puestas">NUESTROS EQUIPOS</h2>
+            <div class="instrument-container-puestas">
+                <div class="instrument-item-puestas">
+                    <img src="images/kyoritsu1.png" alt="Instrumento Kyoritsu 4106">
+                    <div class="instrument-info-puestas">
+                        <h4>MODELO KYORITSU 4106</h4>
+                        <ul>
+                            <li>Medidor de terreno por el método de los 4 polos</li>
+                            <li>Medidor de mallas a tierras por el método de la caída de tensión de los 4 polos</li>
+                            <li>Rangos de medición de 2, 20, 200, 2,000, 20,000 y 200,000 [Ω]</li>
+                            <li>Alta resolución desde los 0.001 [Ω] en escala de 2 [Ω]</li>
+                            <li>Permite restar la resistencia residual en los cables de prueba</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="instrument-item-puestas">
+                    <img src="images/kyoritsu2.png" alt="Instrumento Kyoritsu 4300">
+                    <div class="instrument-info-puestas">
+                        <h4>MODELO KYORITSU 4300</h4>
+                        <ul>
+                            <li>Medidor de mallas a tierras por el método de la caída de tensión de los 2 polos</li>
+                            <li>Rangos de medición de 200, 2,000 [Ω]</li>
+                            <li>Medidor de tensión AC/DC [True RMS]</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="instrument-item-puestas">
+                    <img src="images/fluke.png" alt="Instrumento Kyoritsu 4300">
+                    <div class="instrument-info-puestas">
+                        <h4>MODELO FLUKE 1630
+                            <ul>
+                                <li>Medidor de la resistencia de lazo de tierra</li>
+                                <li>Rangos de medición de 0.025 [Ω] hasta 1500.0 [Ω]</li>
+                                <li>Medidor de la corriente de fuga de tierra</li>
+                                <li>Rangos de medición de 0.2 [mA] hasta 35 [A]</li>
+                                <li>Amplia apertura de la mordaza de 35 mm</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>Contacto: contacto@metrelex.com | Teléfono: +123 456 7890</p>
+        <p>Doctora Eloísa Diaz #5689, Las Condes, Santiago |  Contacto: <a href="mailto:contacto@metrelex.com" target="_blank">contacto@metrelex.com</a> | Teléfono: +569 94381041</p>
         <p>&copy; 2024 Metrelex. Todos los derechos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
+
