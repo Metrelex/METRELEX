@@ -1,5 +1,9 @@
 body {
     font-family: Arial, sans-serif;
+    transform: scale(0.9);
+    transform-origin: top left;
+    width: 111.11%; /* 1 / 0.9 = 1.1111 */
+    height: 111.11%;
     margin: 0;
     padding: 0;
     background: #fff;  /* Fondo blanco */
@@ -45,7 +49,7 @@ nav {
     text-decoration: none;
     color: #333;  /* Texto oscuro */
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     padding: 5px 10px;
 }
 
