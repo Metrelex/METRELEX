@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    transform: scale(0.9);
-    transform-origin: top left;
-    width: 111.11%; /* 1 / 0.9 = 1.1111 */
-    height: 111.11%;
-    margin: 0;
-    padding: 0;
-    background: #fff;  /* Fondo blanco */
-    color: #333;
+    transform: scale(0.9) !important;
+    transform-origin: top left !important;
+    width: 111.11% !important; /* 1 / 0.9 = 1.1111 */
+    height: 111.11% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;  /* Fondo blanco */
+    color: #333 !important;
 }
 
 .header-container {
