@@ -474,6 +474,7 @@ footer {
     margin-bottom: 10px;
     position: relative;
     padding-left: 20px; /* Espacio para el ícono de lista personalizado */
+    font-size: 25px
 }
 
 .ensayos-content ul li::before {
@@ -481,13 +482,13 @@ footer {
     position: absolute;
     left: 0;
     color: #0056b3; /* Color del ícono */
-    font-size: 20px; /* Tamaño del ícono */
+    font-size: 25px; /* Tamaño del ícono */
 }
 
 .ensayos-content ul ul {
     margin-top: 10px;
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 25px;
     color: #333;
     padding-left: 20px; /* Espacio para el ícono de lista personalizado */
 }
@@ -497,7 +498,7 @@ footer {
     position: absolute;
     left: 0;
     color: #0056b3; /* Color del ícono */
-    font-size: 18px; /* Tamaño del ícono */
+    font-size: 25px; /* Tamaño del ícono */
 }
 
 .quote-button {
@@ -592,7 +593,7 @@ footer {
 }
 
 .instrument-info ul li {
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 5px;
 }
@@ -699,7 +700,7 @@ footer {
 .presentation-link {
     text-align: center;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 
@@ -806,6 +807,7 @@ footer {
     font-size: 20px;
     color: #0056b3;
     margin: 0 0 10px 0;
+    
 }
 
 .instrument-info-fallas ul {
@@ -814,7 +816,7 @@ footer {
 }
 
 .instrument-info-fallas ul li {
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     margin-bottom: 5px;
     font-weight: bold; /* Asegura que todas las descripciones estén en negrita */
@@ -823,5 +825,5 @@ footer {
 .presentation-link {
     text-align: center;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 25px;
 }
