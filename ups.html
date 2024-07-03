@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Metrelex</title>
+    <title>Estudios e Informes</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,24 +13,55 @@
             <nav>
                 <ul class="nav-list">
                     <li><a href="index.html" class="tablink">Inicio</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('services')">Servicios</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('about')">Quiénes Somos</a></li>
+                    <li class="services-menu">
+                        <a href="#" class="tablink">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="verificacion.html" target="_blank">INFORME DE VERIFICACIÓN INICIAL</a></li>
+                            <li><a href="puestas.html" target="_blank">PUESTAS A TIERRA</a></li>
+                            <li><a href="ups.html" target="_blank">ESTUDIOS E INFORMES</a></li>
+                            <li><a href="armonicos.html" target="_blank">ANÁLISIS DE ARMÓNICOS</a></li>
+                            <li><a href="fallas.html" target="_blank">BÚSQUEDA DE FALLAS</a></li>
+                            <li><a href="mantenciones.html" target="_blank">MANTENCIONES ELÉCTRICAS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#about" class="tablink">Quiénes Somos</a></li>
                 </ul>
             </nav>
             <div class="contact-info">
-                <a href="mailto:contacto@metrelex.com" class="contact-link">contacto@metrelex.com</a>
+                <a href="mailto:contacto@metrelex.com" target="_blank" class="contact-link">contacto@metrelex.com</a>
             </div>
         </div>
     </header>
     <main>
-        <section>
-            <h2>Mantención e instalación de ups</h2>
-            <p>Descripción detallada de los servicios de mantención e instalación de ups ofrecidos por Metrelex.</p>
+        <section class="hero-estudios">
+            <div class="hero-text-estudios">
+                <h2>ESTUDIOS E INFORMES TÉCNICOS</h2>
+                <p>Mediante software ETAP y DIGSILENT</p>
+            </div>
         </section>
+        <section class="ensayos-mediciones">
+            <div class="ensayos-header">
+                <h2>ESTUDIOS E INFORMES TÉCNICOS</h2>
+                <p>Mediante software ETAP y DIGSILENT</p>
+            </div>
+            <div class="ensayos-content">
+                <p>En Metrelex realizamos los estudios e informes necesarios mediante las herramientas computacionales más actuales.</p>
+                <h3>ESTUDIOS Y SERVICIOS</h3>
+                <ul>
+                    <li>Estudio de cortocircuito</li>
+                    <li>Estudio de arco eléctrico</li>
+                    <li>Estudio de selección de pararrayos (descargador de sobretensiones)</li>
+                    <li>Estudio de selección de aislamientos</li>
+                    <li>Otro tipo de estudios contactarse directamente via correo. contacto@metrelex.com</li>
+                </ul>
+            </div>
+        </section>
+        <p>Para más información sobre nuestros servicios, contáctanos.</p>
     </main>
     <footer>
-        <p>Contacto: contacto@metrelex.com | Teléfono: +123 456 7890</p>
+        <p>Doctora Eloísa Diaz #5689, Las Condes, Santiago |  Contacto: <a href="mailto:contacto@metrelex.com" target="_blank">contacto@metrelex.com</a> | Teléfono: +569 94381041</p>
         <p>&copy; 2024 Metrelex. Todos los derechos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
