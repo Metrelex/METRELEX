@@ -857,3 +857,156 @@ footer {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
+/*pagina mantenciones electricas */
+.hero-mantenciones {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    height: 500px; /* Altura fija para la imagen */
+    overflow: hidden; /* Ocultar cualquier contenido desbordado */
+    background-image: url('images/mantencion.png');
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: fill; /* Ajusta la imagen para que se contenga en el contenedor */
+}
+
+.hero-text-mantenciones {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejor legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.hero-text-mantenciones h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-text-mantenciones p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* página armonicos */
+.hero-armonicos {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    height: 500px; /* Altura fija para la imagen */
+    overflow: hidden; /* Ocultar cualquier contenido desbordado */
+    background-image: url('images/armonicos2.png'); /* Ajusta la ruta de la imagen según corresponda */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: fill; /* Ajusta la imagen para que cubra el contenedor */
+}
+
+.hero-image-armonicos {
+    display: none; /* Oculta la imagen ya que se usa como fondo */
+}
+.ensayos-mediciones {
+    text-align: center;
+}
+.ensayos-header h2,
+.ensayos-header p,
+.ensayos-content p {
+    text-align: center;
+}
+
+.ensayos-content {
+    text-align: center;
+}
+.ensayos-mediciones h2,
+.ensayos-mediciones h3 {
+    text-align: center;
+}
+
+.ensayos-content {
+    text-align: center;
+}
+.hero-text-armonicos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+}
+
+.instrumentacion-armonicos {
+    padding: 20px;
+    background: #fff; /* Fondo blanco */
+    border-radius: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.instrument-title-armonicos {
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.instrument-container-armonicos {
+    display: flex;
+    flex-direction: column; /* Coloca las imágenes en una columna */
+    gap: 20px;
+    justify-content: center;
+}
+
+.instrument-item-armonicos {
+    display: flex;
+    align-items: flex-start; /* Alinea las imágenes al inicio (arriba) */
+    margin-bottom: 20px;
+}
+
+.instrument-item-armonicos h3 {
+    margin: 0 0 10px 0; /* Espacio entre el título y el texto */
+    text-align: left;
+}
+
+.instrument-item-armonicos img {
+    width: 250px; /* Ajusta el tamaño según tu preferencia */
+    height: 250px; /* Ajusta el tamaño según tu preferencia */
+    object-fit: cover; /* Mantiene la proporción de la imagen y la recorta si es necesario */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    margin-right: 40px; /* Añade o ajusta el margen derecho aquí */
+}
+
+.instrument-info-armonicos {
+    flex: 1;
+    text-align: left;
+}
+
+.instrument-info-armonicos h4 {
+    font-size: 20px;
+    color: #0056b3;
+    margin: 0 0 10px 0;
+    
+}
+
+.instrument-info-armonicos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instrument-info-armonicos ul li {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: bold; /* Asegura que todas las descripciones estén en negrita */
+}
+
+.presentation-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}

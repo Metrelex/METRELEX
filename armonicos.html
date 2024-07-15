@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANALISIS DE ARMONICOS</title>
+    <title>Análisis de Armónicos</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,24 +13,93 @@
             <nav>
                 <ul class="nav-list">
                     <li><a href="index.html" class="tablink">Inicio</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('services')">Servicios</a></li>
-                    <li><a href="#" class="tablink" onclick="openTab('about')">Quiénes Somos</a></li>
+                    <li class="services-menu">
+                        <a href="#" class="tablink">Servicios</a>
+                        <ul class="submenu">
+                            <li><a href="verificacion.html" target="_blank">INFORME DE VERIFICACIÓN INICIAL</a></li>
+                            <li><a href="puestas.html" target="_blank">PUESTAS A TIERRA</a></li>
+                            <li><a href="ups.html" target="_blank">ESTUDIOS E INFORMES</a></li>
+                            <li><a href="armonicos.html" target="_blank">ANÁLISIS DE ARMÓNICOS</a></li>
+                            <li><a href="fallas.html" target="_blank">BÚSQUEDA DE FALLAS</a></li>
+                            <li><a href="mantenciones.html" target="_blank">MANTENCIONES ELÉCTRICAS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index.html#about" class="tablink">Quiénes Somos</a></li>
                 </ul>
             </nav>
             <div class="contact-info">
-                <a href="mailto:contacto@metrelex.com" class="contact-link">contacto@metrelex.com</a>
+                <a href="mailto:contacto@metrelex.com" target="_blank" class="contact-link">contacto@metrelex.com</a>
             </div>
         </div>
     </header>
     <main>
-        <section>
-            <h2>Analisis de armonicos</h2>
-            <p>Descripción detallada de los servicios de analisis de armonicos ofrecidos por Metrelex.</p>
+        <section class="hero-armonicos">
+            <div class="hero-text-armonicos">
+                
+            </div>
         </section>
+        <section class="content-section">
+            <h2 class="main-title">ANÁLISIS DE ARMÓNICOS</h2>
+            <p class="sub-title"></p>
+        </section>
+        <section class="ensayos-mediciones">
+            <div class="ensayos-header">
+                <h2>Ensayos y Mediciones</h2>
+                <p>Para instalaciones baja tensión</p>
+            </div>
+            <div class="ensayos-content">
+                <p>En Metrelex realizamos los ensayos y mediciones necesarios con equipos de calidad para garantizar una medición confiable y segura.</p>
+                <h3>PRUEBAS Y SERVICIOS</h3>
+                <ul>
+                    <li>Análisis de armónicos en sistemas eléctricos</li>
+                    <li>Medición de distorsión armónica total (THD)</li>
+                    <li>Diagnóstico y recomendaciones para mitigación de armónicos</li>
+                    <li>Verificación de la conformidad con estándares internacionales</li>
+                </ul>
+            </div>
+        </section>
+        <section class="instrumentacion-armonicos">
+            <h2 class="instrument-title-armonicos">NUESTROS EQUIPOS</h2>
+            <div class="instrument-container-armonicos">
+                <div class="instrument-item-armonicos">
+                    <img src="images/KYORITSUREDES.PNG" alt="Instrumento Fluke 1630">
+                    <div class="instrument-info-armonicos">
+                        <h4>MEDIDOR DE POTENCIA <br>MODELO KYORITSU 6305
+                        </h4>
+                        <ul>
+                            <li>Monitoreo, registro y análisis completos en tiempo real de sistemas monofásicos y trifásicos</li>
+                            <li>Mediciones de voltaje, corriente, factor de potencia y frecuencia</li>
+                            <li>Análisis de potencia (potencia activa, aparente y reactiva)</li>
+                            <li>Análisis de energía (potencia activa, aparente y reactiva)</li>
+                            <li>Amplia selección de sensores de abrazadera que permiten mediciones de 0,1 A a 3000 A</li>
+                            <li>Mediciones remotas y en tiempo real usando la aplicación Android (Bluetooth)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="instrument-item-armonicos">
+                    <img src="images/KYORITSUREDES.PNG" alt="Instrumento Fluke 1630">
+                    <div class="instrument-info-armonicos">
+                        <h4>MEDIDOR DE POTENCIA <br>MODELO KYORITSU 6300
+                        </h4>
+                        <ul>
+                            <li>Monitoreo, registro y análisis completos en tiempo real de sistemas monofásicos y trifásicos</li>
+                            <li>Mediciones de voltaje, corriente, factor de potencia, frecuencia y demanda.</li>
+                            <li>Análisis de potencia (potencia activa, aparente y reactiva)</li>
+                            <li>Análisis de energía (potencia activa, aparente y reactiva)</li>
+                            <li>Amplia selección de sensores de abrazadera que permiten mediciones de 0,1 A a 3000 A</li>x
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="presentation-link">
+            <p>Para más información sobre nuestros instrumentos, visita nuestra <a href="carta.pdf" target="_blank">carta de presentación</a>.</p>
+        </div>
     </main>
     <footer>
-        <p>Contacto: contacto@metrelex.com | Teléfono: +123 456 7890</p>
+        <p>Doctora Eloísa Diaz #5689, Las Condes, Santiago |  Contacto: <a href="mailto:contacto@metrelex.com" target="_blank">contacto@metrelex.com</a> | Teléfono: +569 94381041</p>
         <p>&copy; 2024 Metrelex. Todos los derechos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
